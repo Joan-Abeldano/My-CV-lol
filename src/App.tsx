@@ -9,6 +9,18 @@ import Experience from './components/Sections/Experience';
 import Projects from './components/Sections/Projects';
 import Contact from './components/Sections/Contact';
 import './styles/globals.css';
+import './styles/layout/sections.css';
+import './styles/components/header.css';
+import './styles/components/buttons.css';
+import './styles/components/cards.css';
+import './styles/components/forms.css';
+import './styles/sections/hero.css';
+import './styles/sections/about.css';
+import './styles/sections/skills.css';
+import './styles/sections/experience.css';
+import './styles/sections/projects.css';
+import './styles/sections/contact.css';
+import './styles/layout/footer.css';
 import './styles/animations.css';
 
 const App: React.FC = () => {
