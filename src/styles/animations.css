@@ -1,0 +1,73 @@
+@keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0) rotate(45deg);
+    }
+    40% {
+      transform: translateY(-10px) rotate(45deg);
+    }
+    60% {
+      transform: translateY(-5px) rotate(45deg);
+    }
+  }
+  
+  .floating-shapes {
+    position: relative;
+    height: 300px;
+  }
+  
+  .shape {
+    position: absolute;
+    border-radius: 50%;
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  .shape-1 {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(45deg, #6366f1, #8b5cf6);
+    top: 20px;
+    left: 50px;
+    animation-delay: 0s;
+  }
+  
+  .shape-2 {
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(45deg, #ec4899, #f59e0b);
+    top: 150px;
+    left: 150px;
+    animation-delay: -2s;
+  }
+  
+  .shape-3 {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(45deg, #06b6d4, #10b981);
+    top: 50px;
+    left: 200px;
+    animation-delay: -4s;
+  }
+  
+  .project-card {
+    animation: slideUp 0.6s ease forwards;
+  }
+  
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
