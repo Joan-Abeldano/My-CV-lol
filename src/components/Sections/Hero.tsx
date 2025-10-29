@@ -6,12 +6,12 @@ const Hero: React.FC = () => {
       <div className="hero-content">
         <div className="hero-text">
           <h1 className="hero-title">
-            Hi, I'm <span className="gradient-text">John Doe</span>
+            Hi, I'm <span className="text-primary">Joan Manuel Abeldaño</span>
           </h1>
-          <h2 className="hero-subtitle">Full Stack Developer</h2>
+          <h2 className="hero-subtitle">Backend developer</h2>
           <p className="hero-description">
             Passionate about creating innovative web solutions with modern technologies. 
-            I turn ideas into functional and beautiful digital experiences.
+            I turn ideas into functional digital experiences.
           </p>
           <div className="hero-buttons">
             <button 
@@ -40,11 +40,11 @@ const Hero: React.FC = () => {
             <div className="code-content">
               <span className="code-keyword">const</span> developer = {'{'}
               <br />
-              <span className="code-property">  name:</span> 'John Doe',
+              <span className="code-property">  name:</span> 'Joan Manuel Abeldaño',
               <br />
-              <span className="code-property">  role:</span> 'Full Stack Dev',
+              <span className="code-property">  role:</span> 'Backend Developer',
               <br />
-              <span className="code-property">  passion:</span> 'Clean Code'
+              <span className="code-property">  passion:</span> 'Coding'
               <br />
               {'}'}
             </div>
