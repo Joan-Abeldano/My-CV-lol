@@ -5,13 +5,18 @@ import type { Skill } from '../Common/types';
 
 const Skills: React.FC = () => {
   const skills: Skill[] = [
-    { name: 'React', level: 90, category: 'frontend' },
-    { name: 'TypeScript', level: 85, category: 'frontend' },
-    { name: 'Node.js', level: 80, category: 'backend' },
-    { name: 'Python', level: 75, category: 'backend' },
-    { name: 'MongoDB', level: 70, category: 'backend' },
-    { name: 'AWS', level: 65, category: 'tools' },
+    { name: 'React', level: 50, category: 'frontend' },
+    { name: 'TypeScript', level: 90, category: 'frontend' },
+    { name: 'FastAPI', level: 95, category: 'backend' },
+    { name: 'Python', level: 95, category: 'backend' },
+    { name: 'SpringBoot', level: 90, category: 'backend' },
+    { name: 'Java', level: 95, category: 'backend' },
+    { name: 'PostgreSQL', level: 80, category: 'backend' },
+    { name: 'Firebase', level: 65, category: 'tools' },
     { name: 'Docker', level: 60, category: 'tools' },
+    { name: 'Communication', level: 95, category: 'soft' },
+    { name: 'Teamwork', level: 95, category: 'soft' },
+    { name: 'Active Listening', level: 95, category: 'soft' },
   ];
 
   const categories = {

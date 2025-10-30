@@ -12,27 +12,24 @@ const About: React.FC = () => {
       <div className="about-content">
         <div className="about-text">
           <p>
-            I'm a passionate full-stack developer with 3+ years of experience 
-            creating digital solutions that make a difference. I love tackling 
-            complex challenges and transforming them into elegant, user-friendly applications.
+            As a fourth year backend developer, I specialize in architecting the robust, scalable systems that power seamless user experiences. I am passionate about solving complex computational challenges and transforming complex requirements into efficient, reliable, and well-documented APIs and services.
           </p>
           <p>
-            When I'm not coding, you can find me contributing to open-source projects, 
-            learning new technologies, or sharing knowledge with the developer community.
+            When I'm not coding, you can find me contributing to open-source projects, learning new technologies, or sharing knowledge with the developer community.
           </p>
           
           <div className="stats-grid">
             <div className="stat-item">
-              <div className="stat-number">50+</div>
+              <div className="stat-number">3+</div>
               <div className="stat-label">Projects Completed</div>
             </div>
             <div className="stat-item">
-              <div className="stat-number">3+</div>
-              <div className="stat-label">Years Experience</div>
+              <div className="stat-number">4+</div>
+              <div className="stat-label">Years Experience as a Solo Dev</div>
             </div>
             <div className="stat-item">
-              <div className="stat-number">25+</div>
-              <div className="stat-label">Happy Clients</div>
+              <div className="stat-number">3+</div>
+              <div className="stat-label">Open Source Projects I Contributed To</div>
             </div>
           </div>
         </div>

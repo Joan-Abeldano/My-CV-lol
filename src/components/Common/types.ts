@@ -23,6 +23,14 @@ export interface Project {
     image?: string;
 }
 
+export interface Contribution {
+    id: string;
+    title: string;
+    description: string;
+    contributionList: string;
+    githubUrl?: string;
+}
+
 export interface ContactInfo {
     email: string;
     phone: string;

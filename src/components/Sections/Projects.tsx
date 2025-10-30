@@ -7,37 +7,47 @@ const Projects: React.FC = () => {
   const projects: Project[] = [
     {
       id: '1',
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce solution with React, Node.js, and MongoDB',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      githubUrl: '#',
+      title: 'DATA-UNSIS',
+      description: 'A data hub for students information.',
+      technologies: ['Java', 'SpringBoot', 'PostgreSQL'],
+      githubUrl: 'https://github.com/DATA-UNSIS/DATA-UNSIS-BACKEND',
       liveUrl: '#'
     },
     {
       id: '2',
-      title: 'Task Management App',
-      description: 'Collaborative task management application with real-time updates',
-      technologies: ['React', 'Socket.io', 'Express', 'PostgreSQL'],
+      title: 'ExamForge-UNSIS',
+      description: 'An exam scheduling web application.',
+      technologies: ['Python', 'FastAPI', 'MariaDB'],
       githubUrl: '#',
       liveUrl: '#'
     },
     {
       id: '3',
-      title: 'Weather Dashboard',
-      description: 'Beautiful weather application with forecast and location services',
-      technologies: ['React', 'TypeScript', 'Chart.js', 'Weather API'],
+      title: 'AnyStore POS',
+      description: 'A general purpose point of sale web application.',
+      technologies: ['Java', 'SpringBoot', 'React', 'TypeScript', 'MariaDB'],
+      githubUrl: '#',
+      liveUrl: '#'
+    },
+    {
+      id: '4',
+      title: 'F1 DataDrive',
+      description: 'A data hub for easy accesing F1 telemetry data graphs.',
+      technologies: ['Python', 'FastAPI', 'MariaDB', 'FastF1'],
       githubUrl: '#',
       liveUrl: '#'
     }
   ];
 
+
+  
   return (
     <AnimatedSection id="projects" className="projects">
       <div className="section-header">
         <h2 className="section-title">Featured Projects</h2>
         <div className="section-divider"></div>
         <p className="section-subtitle">
-          Here are some of my recent projects that showcase my skills and experience
+          Here are some of my projects that showcase my skills and experience
         </p>
       </div>
 

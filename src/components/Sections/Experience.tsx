@@ -7,39 +7,24 @@ const ExperienceSection: React.FC = () => {
   const experiences: Experience[] = [
     {
       id: '1',
-      company: 'Tech Solutions Inc.',
-      position: 'Senior Full Stack Developer',
-      period: '2022 - Present',
+      company: 'Universidad de la Sierra Sur',
+      position: 'Backend Developer',
+      period: '2025 - Present',
       description: [
-        'Led development of multiple web applications using React and Node.js',
-        'Improved application performance by 40% through code optimization',
-        'Mentored junior developers and conducted code reviews'
+        'Led backend development of multiple web applications using SpringBoot and FastAPI.',
+        'Mentored lower year students and conducted code reviews.'
       ],
-      technologies: ['React', 'TypeScript', 'Node.js', 'MongoDB', 'AWS']
+      technologies: ['Python', 'FastAPI', 'Java', 'SpringBoot', 'PostgreSQL', 'TypeScript']
     },
     {
       id: '2',
-      company: 'Digital Innovations',
-      position: 'Frontend Developer',
-      period: '2020 - 2022',
+      company: 'Solo Developer',
+      position: 'Full Stack',
+      period: '2023 - Present',
       description: [
-        'Developed responsive web applications using modern JavaScript frameworks',
-        'Collaborated with UX designers to implement pixel-perfect designs',
-        'Integrated with REST APIs and third-party services'
+        
       ],
-      technologies: ['React', 'JavaScript', 'CSS3', 'REST APIs']
-    },
-    {
-      id: '3',
-      company: 'StartUp Ventures',
-      position: 'Junior Developer',
-      period: '2019 - 2020',
-      description: [
-        'Built and maintained company website and internal tools',
-        'Participated in agile development processes',
-        'Learned modern development practices and tools'
-      ],
-      technologies: ['JavaScript', 'HTML5', 'CSS3', 'Git']
+      technologies: ['Python', 'FastAPI', 'TypeScript', 'REST APIs']
     }
   ];
 

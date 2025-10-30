@@ -10,7 +10,6 @@ const Contact: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission
     console.log('Form submitted:', formData);
   };
 
@@ -37,21 +36,21 @@ const Contact: React.FC = () => {
             <div className="contact-icon">📧</div>
             <div>
               <h3>Email</h3>
-              <p>john.doe@example.com</p>
+              <p>joanmabeldano@gmail.com</p>
             </div>
           </div>
           <div className="contact-item">
             <div className="contact-icon">📱</div>
             <div>
               <h3>Phone</h3>
-              <p>+1 (555) 123-4567</p>
+              <p>+52 9512904328</p>
             </div>
           </div>
           <div className="contact-item">
             <div className="contact-icon">📍</div>
             <div>
               <h3>Location</h3>
-              <p>San Francisco, CA</p>
+              <p>Oaxaca, MX</p>
             </div>
           </div>
         </div>
