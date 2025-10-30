@@ -7,7 +7,6 @@ import About from './components/Sections/About';
 import Experience from './components/Sections/Experience';
 import Projects from './components/Sections/Projects';
 import Contact from './components/Sections/Contact';
-import Contributions from './components/Sections/Contributions';
 import './styles/globals.css';
 import './styles/layout/sections.css';
 import './styles/components/header.css';
@@ -32,7 +31,6 @@ const App: React.FC = () => {
         <About />
         <Experience />
         <Projects />
-        <Contributions />
         <Contact />
       </main>
       <Footer />
