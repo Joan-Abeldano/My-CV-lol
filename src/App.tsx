@@ -4,7 +4,6 @@ import Footer from './components/Layout/Footer';
 import ParticleBackground from './components/Layout/ParticleBackground';
 import Hero from './components/Sections/Hero';
 import About from './components/Sections/About';
-import Skills from './components/Sections/Skills';
 import Experience from './components/Sections/Experience';
 import Projects from './components/Sections/Projects';
 import Contact from './components/Sections/Contact';
@@ -17,7 +16,6 @@ import './styles/components/cards.css';
 import './styles/components/forms.css';
 import './styles/sections/hero.css';
 import './styles/sections/about.css';
-import './styles/sections/skills.css';
 import './styles/sections/experience.css';
 import './styles/sections/projects.css';
 import './styles/sections/contact.css';
@@ -32,7 +30,6 @@ const App: React.FC = () => {
       <main>
         <Hero />
         <About />
-        <Skills />
         <Experience />
         <Projects />
         <Contributions />

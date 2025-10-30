@@ -1,9 +1,3 @@
-export interface Skill {
-    name: string;
-    level: number;
-    category: 'frontend' | 'backend' | 'tools' | 'soft';
-}
-
 export interface Experience {
     id: string;
     company: string;
